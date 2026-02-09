@@ -1,0 +1,145 @@
+body {
+color: gold;
+background-color: black;
+}
+.nossos-livros{
+    position: fixed;
+    top: 40px;
+    right: 40px;
+
+    font-size: 28px;
+    width: 200px;
+    padding: 12px 24px;
+
+    border-radius: 14px;
+    background-color: gold;
+
+    text-decoration: none;
+    color: black;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+.nossos-livros:hover{
+    background-color: blue;
+    transform: scale(1.05);
+}
+.nossos-livros:active{
+    background-color: red;
+    transform: scale(0,01);
+}
+
+.menu-topo{
+    position: fixed;
+    top: 40px;
+    right: 40px;
+
+    display: flex;
+    gap: 20px;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+}
+.quem-somos{
+    position: fixed;
+    right: 850px;
+    top: 40px;
+
+    font-size: 28px;
+    width: 180px;
+    padding: 12px 14px;
+
+    border-radius: 14px;
+    background-color: gold;
+
+    text-decoration: none;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+.quem-somos:hover{
+    background-color: blue;
+    transform: scale(1.05);
+
+}
+.quem-somos:active{
+    background-color: red;
+    transform: scale(0,01);
+}
+.nossos-servicos{
+    position: fixed;
+    right: 12.3cm;
+    top: 40px;
+
+    font-size: 28px;
+    width: 180px;
+    padding: 12px 14px;
+
+    border-radius: 14px;
+    background-color: gold;
+
+    text-decoration: none;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+.nossos-servicos:hover{
+    background-color: blue;
+    transform: scale(1.05);
+
+}
+.nossos-servicos:active{
+    background-color: red;
+    transform: scale(0,01);
+
+}
+.nossos-selos{
+    position: fixed;
+    right: 33cm;
+    top: 40px;
+
+    font-size: 28px;
+    width: 180px;
+    padding: 12px 14px;
+
+    border-radius: 14px;
+    background-color: gold;
+
+    text-decoration: none;
+    color: black;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    cursor: pointer;
+    transition: 0.3s ease;
+
+}
+.nossos-selos:hover{
+    background-color: blue;
+    transform: scale(1.05);
+
+}
+.nossos-selos:active{
+    background-color: red;
+    transform: scale(0,01);
+}
+
+
